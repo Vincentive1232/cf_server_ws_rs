@@ -1,0 +1,15 @@
+[package]
+name = "workstation_ros_rs"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name="link_node"
+path="src/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt", "rt-multi-thread", "time"] }
+rclrs = "0.7"
+std_msgs = "*"
+crazyflie-link = "0.3.0"
+crazyflie-lib = "0.3.0"
