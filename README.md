@@ -33,7 +33,7 @@ This is a ROS2 communication node written in Rust for controlling Bitcraze Crazy
 ## Build
 1. clone this repo:
     ```bash
-    git clone git@github.com:Vincentive1232/cf_server_rs.git
+    git clone git@github.com:Vincentive1232/cf_server_ws_rs.git
     cd cf_server_rs
     ```
 
@@ -72,5 +72,5 @@ This is a ROS2 communication node written in Rust for controlling Bitcraze Crazy
 
 ## run
 ```bash
-ros2 run cf_server_rs link_node
+ros2 run cf_server_rs cf_server_rs
 ```
